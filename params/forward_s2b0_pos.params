@@ -1,0 +1,20 @@
+--model_path models/forward_s2b0_pos
+--mode train 
+--use_bilstm_input 
+--input_bilstm_size 256 
+--input_bilstm_layers 2 
+--hidden_layer_size 256 
+--hidden_layers 2 
+--encoding_type forward 
+--encoding_lstm_size 256 
+--encoding_lstm_layers 2 
+--batch_size 10 
+--stack_feats 2 
+--buffer_feats 0
+--min_iter_for_test 0 
+--iter_per_test 500
+--epochs 30
+--train_path data/en-wsj-std-train-stanford-3.3.0-jack.conll 
+--dev_path data/en-wsj-std-dev-stanford-3.3.0-tagged.conll 
+--test_path data/en-wsj-std-test-stanford-3.3.0-tagged.conll
+--word_emb_path data/glove.6B.100d.txt

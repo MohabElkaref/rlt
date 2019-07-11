@@ -1,0 +1,17 @@
+--model_path models/forward_s4b4_emb
+--mode train
+--hidden_layer_size 256 
+--hidden_layers 2 
+--encoding_type forward 
+--encoding_lstm_size 256 
+--encoding_lstm_layers 2 
+--batch_size 10 
+--stack_feats 4 
+--buffer_feats 4 
+--min_iter_for_test 0 
+--iter_per_test 500
+--epochs 30
+--train_path <INSERT PATH HERE>
+--dev_path <INSERT PATH HERE>
+--test_path <INSERT PATH HERE>
+--word_emb_path <INSERT PATH HERE>
